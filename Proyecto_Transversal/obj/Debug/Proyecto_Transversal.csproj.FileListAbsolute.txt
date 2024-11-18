@@ -6,3 +6,4 @@ C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transver
 C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.csproj.GenerateResource.Cache
 C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.exe
 C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.pdb
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.Calc_precio.resources

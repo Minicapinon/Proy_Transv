@@ -54,6 +54,10 @@
     <Compile Include="Calc_precio.Designer.cs">
       <DependentUpon>Calc_precio.cs</DependentUpon>
     </Compile>
+    <Compile Include="class4buttons.cs" />
+    <Compile Include="CMLabel.cs" />
+    <Compile Include="CMTextBox.cs" />
+    <Compile Include="CMTextBox.Designer.cs" />
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -65,6 +69,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Calc_precio.resx">
+      <DependentUpon>Calc_precio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>

@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace Proyecto_Transversal
 {
 	/// <summary>
-	/// Description of Calc_precio.
+	/// Calculadora de Precios
 	/// </summary>
 	public partial class Calc_precio : Form
 	{

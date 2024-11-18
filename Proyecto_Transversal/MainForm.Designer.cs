@@ -79,7 +79,7 @@ namespace Proyecto_Transversal
 			this.lbltitle.ForeColor = System.Drawing.Color.White;
 			this.lbltitle.Location = new System.Drawing.Point(0, 60);
 			this.lbltitle.Name = "lbltitle";
-			this.lbltitle.Size = new System.Drawing.Size(797, 150);
+			this.lbltitle.Size = new System.Drawing.Size(795, 150);
 			this.lbltitle.TabIndex = 2;
 			this.lbltitle.Text = "¿Qué desea hacer?";
 			// 
@@ -92,6 +92,7 @@ namespace Proyecto_Transversal
 			this.Controls.Add(this.lbltitle);
 			this.Controls.Add(this.ExitProgram);
 			this.Controls.Add(this.OpenCalculator);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximumSize = new System.Drawing.Size(800, 800);
 			this.MinimumSize = new System.Drawing.Size(800, 800);
 			this.Name = "MainForm";
