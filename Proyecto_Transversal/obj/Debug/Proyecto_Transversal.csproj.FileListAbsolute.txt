@@ -1,0 +1,8 @@
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\bin\Debug\Proyecto_Transversal.exe.config
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\bin\Debug\Proyecto_Transversal.exe
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\bin\Debug\Proyecto_Transversal.pdb
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.csprojResolveAssemblyReference.cache
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.MainForm.resources
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.csproj.GenerateResource.Cache
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.exe
+C:\Users\angel\Documents\OwO\SharpDevelop Projects\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.pdb
