@@ -50,6 +50,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calculated.cs" />
+    <Compile Include="Calculated.Designer.cs">
+      <DependentUpon>Calculated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Calc_precio.cs" />
     <Compile Include="Calc_precio.Designer.cs">
       <DependentUpon>Calc_precio.cs</DependentUpon>
@@ -69,6 +73,9 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Calculated.resx">
+      <DependentUpon>Calculated.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Calc_precio.resx">
       <DependentUpon>Calc_precio.cs</DependentUpon>
     </EmbeddedResource>
