@@ -25,16 +25,16 @@ namespace Proyecto_Transversal
 		private Proyecto_Transversal.CustomLabel customLabel1;
 		private System.Windows.Forms.Label lbltitle;
 		private System.Windows.Forms.Label lblPrecio;
-		private Proyecto_Transversal.CustomLabel customLabel11;
-		private Proyecto_Transversal.CustomLabel customLabel12;
-		private Proyecto_Transversal.CustomLabel customLabel13;
-		private Proyecto_Transversal.CustomLabel customLabel14;
-		private Proyecto_Transversal.CustomLabel customLabel15;
-		private Proyecto_Transversal.CustomLabel customLabel16;
-		private Proyecto_Transversal.CustomLabel customLabel17;
-		private Proyecto_Transversal.CustomLabel customLabel18;
-		private Proyecto_Transversal.CustomLabel customLabel19;
-		private Proyecto_Transversal.CustomLabel customLabel20;
+		private Proyecto_Transversal.CustomLabel LblPersonal;
+		private Proyecto_Transversal.CustomLabel LblDiseno;
+		private Proyecto_Transversal.CustomLabel LblPintura;
+		private Proyecto_Transversal.CustomLabel LblAserrin;
+		private Proyecto_Transversal.CustomLabel LblTamano;
+		private Proyecto_Transversal.CustomLabel LblComida;
+		private Proyecto_Transversal.CustomLabel LblObra;
+		private Proyecto_Transversal.CustomLabel LblAgua;
+		private Proyecto_Transversal.CustomLabel LblFlores;
+		private Proyecto_Transversal.CustomLabel LblFrutos;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -71,16 +71,16 @@ namespace Proyecto_Transversal
 			this.customLabel1 = new Proyecto_Transversal.CustomLabel();
 			this.lbltitle = new System.Windows.Forms.Label();
 			this.lblPrecio = new System.Windows.Forms.Label();
-			this.customLabel11 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel12 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel13 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel14 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel15 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel16 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel17 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel18 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel19 = new Proyecto_Transversal.CustomLabel();
-			this.customLabel20 = new Proyecto_Transversal.CustomLabel();
+			this.LblPersonal = new Proyecto_Transversal.CustomLabel();
+			this.LblDiseno = new Proyecto_Transversal.CustomLabel();
+			this.LblPintura = new Proyecto_Transversal.CustomLabel();
+			this.LblAserrin = new Proyecto_Transversal.CustomLabel();
+			this.LblTamano = new Proyecto_Transversal.CustomLabel();
+			this.LblComida = new Proyecto_Transversal.CustomLabel();
+			this.LblObra = new Proyecto_Transversal.CustomLabel();
+			this.LblAgua = new Proyecto_Transversal.CustomLabel();
+			this.LblFlores = new Proyecto_Transversal.CustomLabel();
+			this.LblFrutos = new Proyecto_Transversal.CustomLabel();
 			((System.ComponentModel.ISupportInitialize)(this.BtnRegresar)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -105,7 +105,7 @@ namespace Proyecto_Transversal
 			this.customLabel6.BorderRadius = 40;
 			this.customLabel6.BorderSize = 0;
 			this.customLabel6.ForeColor = System.Drawing.Color.White;
-			this.customLabel6.Location = new System.Drawing.Point(542, 492);
+			this.customLabel6.Location = new System.Drawing.Point(512, 492);
 			this.customLabel6.MaximumSize = new System.Drawing.Size(150, 60);
 			this.customLabel6.MinimumSize = new System.Drawing.Size(150, 60);
 			this.customLabel6.Name = "customLabel6";
@@ -123,7 +123,7 @@ namespace Proyecto_Transversal
 			this.customLabel7.BorderRadius = 40;
 			this.customLabel7.BorderSize = 0;
 			this.customLabel7.ForeColor = System.Drawing.Color.White;
-			this.customLabel7.Location = new System.Drawing.Point(542, 402);
+			this.customLabel7.Location = new System.Drawing.Point(512, 402);
 			this.customLabel7.MaximumSize = new System.Drawing.Size(150, 60);
 			this.customLabel7.MinimumSize = new System.Drawing.Size(150, 60);
 			this.customLabel7.Name = "customLabel7";
@@ -141,7 +141,7 @@ namespace Proyecto_Transversal
 			this.customLabel8.BorderRadius = 40;
 			this.customLabel8.BorderSize = 0;
 			this.customLabel8.ForeColor = System.Drawing.Color.White;
-			this.customLabel8.Location = new System.Drawing.Point(542, 332);
+			this.customLabel8.Location = new System.Drawing.Point(512, 332);
 			this.customLabel8.MaximumSize = new System.Drawing.Size(150, 40);
 			this.customLabel8.MinimumSize = new System.Drawing.Size(150, 40);
 			this.customLabel8.Name = "customLabel8";
@@ -159,7 +159,7 @@ namespace Proyecto_Transversal
 			this.customLabel9.BorderRadius = 40;
 			this.customLabel9.BorderSize = 0;
 			this.customLabel9.ForeColor = System.Drawing.Color.White;
-			this.customLabel9.Location = new System.Drawing.Point(542, 262);
+			this.customLabel9.Location = new System.Drawing.Point(512, 262);
 			this.customLabel9.MaximumSize = new System.Drawing.Size(150, 40);
 			this.customLabel9.MinimumSize = new System.Drawing.Size(150, 40);
 			this.customLabel9.Name = "customLabel9";
@@ -177,7 +177,7 @@ namespace Proyecto_Transversal
 			this.customLabel10.BorderRadius = 40;
 			this.customLabel10.BorderSize = 0;
 			this.customLabel10.ForeColor = System.Drawing.Color.White;
-			this.customLabel10.Location = new System.Drawing.Point(542, 192);
+			this.customLabel10.Location = new System.Drawing.Point(512, 192);
 			this.customLabel10.MaximumSize = new System.Drawing.Size(150, 40);
 			this.customLabel10.MinimumSize = new System.Drawing.Size(150, 40);
 			this.customLabel10.Name = "customLabel10";
@@ -195,7 +195,7 @@ namespace Proyecto_Transversal
 			this.customLabel5.BorderRadius = 40;
 			this.customLabel5.BorderSize = 0;
 			this.customLabel5.ForeColor = System.Drawing.Color.White;
-			this.customLabel5.Location = new System.Drawing.Point(155, 492);
+			this.customLabel5.Location = new System.Drawing.Point(125, 492);
 			this.customLabel5.MaximumSize = new System.Drawing.Size(150, 60);
 			this.customLabel5.MinimumSize = new System.Drawing.Size(150, 60);
 			this.customLabel5.Name = "customLabel5";
@@ -213,7 +213,7 @@ namespace Proyecto_Transversal
 			this.customLabel4.BorderRadius = 40;
 			this.customLabel4.BorderSize = 0;
 			this.customLabel4.ForeColor = System.Drawing.Color.White;
-			this.customLabel4.Location = new System.Drawing.Point(155, 402);
+			this.customLabel4.Location = new System.Drawing.Point(125, 402);
 			this.customLabel4.MaximumSize = new System.Drawing.Size(150, 60);
 			this.customLabel4.MinimumSize = new System.Drawing.Size(150, 60);
 			this.customLabel4.Name = "customLabel4";
@@ -231,7 +231,7 @@ namespace Proyecto_Transversal
 			this.customLabel3.BorderRadius = 40;
 			this.customLabel3.BorderSize = 0;
 			this.customLabel3.ForeColor = System.Drawing.Color.White;
-			this.customLabel3.Location = new System.Drawing.Point(155, 332);
+			this.customLabel3.Location = new System.Drawing.Point(125, 332);
 			this.customLabel3.MaximumSize = new System.Drawing.Size(150, 40);
 			this.customLabel3.MinimumSize = new System.Drawing.Size(150, 40);
 			this.customLabel3.Name = "customLabel3";
@@ -249,7 +249,7 @@ namespace Proyecto_Transversal
 			this.customLabel2.BorderRadius = 40;
 			this.customLabel2.BorderSize = 0;
 			this.customLabel2.ForeColor = System.Drawing.Color.White;
-			this.customLabel2.Location = new System.Drawing.Point(155, 262);
+			this.customLabel2.Location = new System.Drawing.Point(125, 262);
 			this.customLabel2.MaximumSize = new System.Drawing.Size(150, 40);
 			this.customLabel2.MinimumSize = new System.Drawing.Size(150, 40);
 			this.customLabel2.Name = "customLabel2";
@@ -267,7 +267,7 @@ namespace Proyecto_Transversal
 			this.customLabel1.BorderRadius = 40;
 			this.customLabel1.BorderSize = 0;
 			this.customLabel1.ForeColor = System.Drawing.Color.White;
-			this.customLabel1.Location = new System.Drawing.Point(155, 192);
+			this.customLabel1.Location = new System.Drawing.Point(125, 192);
 			this.customLabel1.MaximumSize = new System.Drawing.Size(150, 40);
 			this.customLabel1.MinimumSize = new System.Drawing.Size(150, 40);
 			this.customLabel1.Name = "customLabel1";
@@ -299,185 +299,185 @@ namespace Proyecto_Transversal
 			this.lblPrecio.TabIndex = 43;
 			this.lblPrecio.Text = "_____";
 			// 
-			// customLabel11
+			// LblPersonal
 			// 
-			this.customLabel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel11.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel11.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel11.BorderRadius = 40;
-			this.customLabel11.BorderSize = 0;
-			this.customLabel11.ForeColor = System.Drawing.Color.White;
-			this.customLabel11.Location = new System.Drawing.Point(323, 492);
-			this.customLabel11.MaximumSize = new System.Drawing.Size(150, 60);
-			this.customLabel11.MinimumSize = new System.Drawing.Size(150, 60);
-			this.customLabel11.Name = "customLabel11";
-			this.customLabel11.Size = new System.Drawing.Size(150, 60);
-			this.customLabel11.TabIndex = 48;
-			this.customLabel11.Text = "Numero de personal";
-			this.customLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel11.TextColor = System.Drawing.Color.White;
+			this.LblPersonal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblPersonal.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblPersonal.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblPersonal.BorderRadius = 40;
+			this.LblPersonal.BorderSize = 0;
+			this.LblPersonal.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblPersonal.Location = new System.Drawing.Point(293, 492);
+			this.LblPersonal.MaximumSize = new System.Drawing.Size(150, 60);
+			this.LblPersonal.MinimumSize = new System.Drawing.Size(150, 60);
+			this.LblPersonal.Name = "LblPersonal";
+			this.LblPersonal.Size = new System.Drawing.Size(150, 60);
+			this.LblPersonal.TabIndex = 48;
+			this.LblPersonal.Text = "$0";
+			this.LblPersonal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblPersonal.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel12
+			// LblDiseno
 			// 
-			this.customLabel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel12.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel12.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel12.BorderRadius = 40;
-			this.customLabel12.BorderSize = 0;
-			this.customLabel12.ForeColor = System.Drawing.Color.White;
-			this.customLabel12.Location = new System.Drawing.Point(323, 402);
-			this.customLabel12.MaximumSize = new System.Drawing.Size(150, 60);
-			this.customLabel12.MinimumSize = new System.Drawing.Size(150, 60);
-			this.customLabel12.Name = "customLabel12";
-			this.customLabel12.Size = new System.Drawing.Size(150, 60);
-			this.customLabel12.TabIndex = 47;
-			this.customLabel12.Text = "Costo por hora de diseño";
-			this.customLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel12.TextColor = System.Drawing.Color.White;
+			this.LblDiseno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblDiseno.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblDiseno.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblDiseno.BorderRadius = 40;
+			this.LblDiseno.BorderSize = 0;
+			this.LblDiseno.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblDiseno.Location = new System.Drawing.Point(293, 402);
+			this.LblDiseno.MaximumSize = new System.Drawing.Size(150, 60);
+			this.LblDiseno.MinimumSize = new System.Drawing.Size(150, 60);
+			this.LblDiseno.Name = "LblDiseno";
+			this.LblDiseno.Size = new System.Drawing.Size(150, 60);
+			this.LblDiseno.TabIndex = 47;
+			this.LblDiseno.Text = "$0";
+			this.LblDiseno.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblDiseno.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel13
+			// LblPintura
 			// 
-			this.customLabel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel13.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel13.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel13.BorderRadius = 40;
-			this.customLabel13.BorderSize = 0;
-			this.customLabel13.ForeColor = System.Drawing.Color.White;
-			this.customLabel13.Location = new System.Drawing.Point(323, 332);
-			this.customLabel13.MaximumSize = new System.Drawing.Size(150, 40);
-			this.customLabel13.MinimumSize = new System.Drawing.Size(150, 40);
-			this.customLabel13.Name = "customLabel13";
-			this.customLabel13.Size = new System.Drawing.Size(150, 40);
-			this.customLabel13.TabIndex = 46;
-			this.customLabel13.Text = "Pintura";
-			this.customLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel13.TextColor = System.Drawing.Color.White;
+			this.LblPintura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblPintura.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblPintura.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblPintura.BorderRadius = 40;
+			this.LblPintura.BorderSize = 0;
+			this.LblPintura.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblPintura.Location = new System.Drawing.Point(293, 332);
+			this.LblPintura.MaximumSize = new System.Drawing.Size(150, 40);
+			this.LblPintura.MinimumSize = new System.Drawing.Size(150, 40);
+			this.LblPintura.Name = "LblPintura";
+			this.LblPintura.Size = new System.Drawing.Size(150, 40);
+			this.LblPintura.TabIndex = 46;
+			this.LblPintura.Text = "$0";
+			this.LblPintura.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblPintura.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel14
+			// LblAserrin
 			// 
-			this.customLabel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel14.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel14.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel14.BorderRadius = 40;
-			this.customLabel14.BorderSize = 0;
-			this.customLabel14.ForeColor = System.Drawing.Color.White;
-			this.customLabel14.Location = new System.Drawing.Point(323, 262);
-			this.customLabel14.MaximumSize = new System.Drawing.Size(150, 40);
-			this.customLabel14.MinimumSize = new System.Drawing.Size(150, 40);
-			this.customLabel14.Name = "customLabel14";
-			this.customLabel14.Size = new System.Drawing.Size(150, 40);
-			this.customLabel14.TabIndex = 45;
-			this.customLabel14.Text = "Aserrín";
-			this.customLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel14.TextColor = System.Drawing.Color.White;
+			this.LblAserrin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblAserrin.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblAserrin.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblAserrin.BorderRadius = 40;
+			this.LblAserrin.BorderSize = 0;
+			this.LblAserrin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblAserrin.Location = new System.Drawing.Point(293, 262);
+			this.LblAserrin.MaximumSize = new System.Drawing.Size(150, 40);
+			this.LblAserrin.MinimumSize = new System.Drawing.Size(150, 40);
+			this.LblAserrin.Name = "LblAserrin";
+			this.LblAserrin.Size = new System.Drawing.Size(150, 40);
+			this.LblAserrin.TabIndex = 45;
+			this.LblAserrin.Text = "$0";
+			this.LblAserrin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblAserrin.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel15
+			// LblTamano
 			// 
-			this.customLabel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel15.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel15.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel15.BorderRadius = 40;
-			this.customLabel15.BorderSize = 0;
-			this.customLabel15.ForeColor = System.Drawing.Color.White;
-			this.customLabel15.Location = new System.Drawing.Point(323, 192);
-			this.customLabel15.MaximumSize = new System.Drawing.Size(150, 40);
-			this.customLabel15.MinimumSize = new System.Drawing.Size(150, 40);
-			this.customLabel15.Name = "customLabel15";
-			this.customLabel15.Size = new System.Drawing.Size(150, 40);
-			this.customLabel15.TabIndex = 44;
-			this.customLabel15.Text = "Tamaño";
-			this.customLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel15.TextColor = System.Drawing.Color.White;
+			this.LblTamano.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblTamano.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblTamano.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblTamano.BorderRadius = 40;
+			this.LblTamano.BorderSize = 0;
+			this.LblTamano.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblTamano.Location = new System.Drawing.Point(293, 192);
+			this.LblTamano.MaximumSize = new System.Drawing.Size(150, 40);
+			this.LblTamano.MinimumSize = new System.Drawing.Size(150, 40);
+			this.LblTamano.Name = "LblTamano";
+			this.LblTamano.Size = new System.Drawing.Size(150, 40);
+			this.LblTamano.TabIndex = 44;
+			this.LblTamano.Text = "$0";
+			this.LblTamano.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblTamano.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel16
+			// LblComida
 			// 
-			this.customLabel16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel16.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel16.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel16.BorderRadius = 40;
-			this.customLabel16.BorderSize = 0;
-			this.customLabel16.ForeColor = System.Drawing.Color.White;
-			this.customLabel16.Location = new System.Drawing.Point(715, 492);
-			this.customLabel16.MaximumSize = new System.Drawing.Size(150, 60);
-			this.customLabel16.MinimumSize = new System.Drawing.Size(150, 60);
-			this.customLabel16.Name = "customLabel16";
-			this.customLabel16.Size = new System.Drawing.Size(150, 60);
-			this.customLabel16.TabIndex = 53;
-			this.customLabel16.Text = "Costo de comida";
-			this.customLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel16.TextColor = System.Drawing.Color.White;
+			this.LblComida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblComida.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblComida.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblComida.BorderRadius = 40;
+			this.LblComida.BorderSize = 0;
+			this.LblComida.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblComida.Location = new System.Drawing.Point(685, 492);
+			this.LblComida.MaximumSize = new System.Drawing.Size(150, 60);
+			this.LblComida.MinimumSize = new System.Drawing.Size(150, 60);
+			this.LblComida.Name = "LblComida";
+			this.LblComida.Size = new System.Drawing.Size(150, 60);
+			this.LblComida.TabIndex = 53;
+			this.LblComida.Text = "$0";
+			this.LblComida.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblComida.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel17
+			// LblObra
 			// 
-			this.customLabel17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel17.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel17.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel17.BorderRadius = 40;
-			this.customLabel17.BorderSize = 0;
-			this.customLabel17.ForeColor = System.Drawing.Color.White;
-			this.customLabel17.Location = new System.Drawing.Point(715, 402);
-			this.customLabel17.MaximumSize = new System.Drawing.Size(150, 60);
-			this.customLabel17.MinimumSize = new System.Drawing.Size(150, 60);
-			this.customLabel17.Name = "customLabel17";
-			this.customLabel17.Size = new System.Drawing.Size(150, 60);
-			this.customLabel17.TabIndex = 52;
-			this.customLabel17.Text = "Costo por mano de obra";
-			this.customLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel17.TextColor = System.Drawing.Color.White;
+			this.LblObra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblObra.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblObra.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblObra.BorderRadius = 40;
+			this.LblObra.BorderSize = 0;
+			this.LblObra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblObra.Location = new System.Drawing.Point(685, 402);
+			this.LblObra.MaximumSize = new System.Drawing.Size(150, 60);
+			this.LblObra.MinimumSize = new System.Drawing.Size(150, 60);
+			this.LblObra.Name = "LblObra";
+			this.LblObra.Size = new System.Drawing.Size(150, 60);
+			this.LblObra.TabIndex = 52;
+			this.LblObra.Text = "$0";
+			this.LblObra.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblObra.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel18
+			// LblAgua
 			// 
-			this.customLabel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel18.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel18.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel18.BorderRadius = 40;
-			this.customLabel18.BorderSize = 0;
-			this.customLabel18.ForeColor = System.Drawing.Color.White;
-			this.customLabel18.Location = new System.Drawing.Point(715, 332);
-			this.customLabel18.MaximumSize = new System.Drawing.Size(150, 40);
-			this.customLabel18.MinimumSize = new System.Drawing.Size(150, 40);
-			this.customLabel18.Name = "customLabel18";
-			this.customLabel18.Size = new System.Drawing.Size(150, 40);
-			this.customLabel18.TabIndex = 51;
-			this.customLabel18.Text = "Agua";
-			this.customLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel18.TextColor = System.Drawing.Color.White;
+			this.LblAgua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblAgua.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblAgua.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblAgua.BorderRadius = 40;
+			this.LblAgua.BorderSize = 0;
+			this.LblAgua.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblAgua.Location = new System.Drawing.Point(685, 332);
+			this.LblAgua.MaximumSize = new System.Drawing.Size(150, 40);
+			this.LblAgua.MinimumSize = new System.Drawing.Size(150, 40);
+			this.LblAgua.Name = "LblAgua";
+			this.LblAgua.Size = new System.Drawing.Size(150, 40);
+			this.LblAgua.TabIndex = 51;
+			this.LblAgua.Text = "$0";
+			this.LblAgua.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblAgua.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel19
+			// LblFlores
 			// 
-			this.customLabel19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel19.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel19.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel19.BorderRadius = 40;
-			this.customLabel19.BorderSize = 0;
-			this.customLabel19.ForeColor = System.Drawing.Color.White;
-			this.customLabel19.Location = new System.Drawing.Point(715, 262);
-			this.customLabel19.MaximumSize = new System.Drawing.Size(150, 40);
-			this.customLabel19.MinimumSize = new System.Drawing.Size(150, 40);
-			this.customLabel19.Name = "customLabel19";
-			this.customLabel19.Size = new System.Drawing.Size(150, 40);
-			this.customLabel19.TabIndex = 50;
-			this.customLabel19.Text = "Flores";
-			this.customLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel19.TextColor = System.Drawing.Color.White;
+			this.LblFlores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblFlores.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblFlores.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblFlores.BorderRadius = 40;
+			this.LblFlores.BorderSize = 0;
+			this.LblFlores.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblFlores.Location = new System.Drawing.Point(685, 262);
+			this.LblFlores.MaximumSize = new System.Drawing.Size(150, 40);
+			this.LblFlores.MinimumSize = new System.Drawing.Size(150, 40);
+			this.LblFlores.Name = "LblFlores";
+			this.LblFlores.Size = new System.Drawing.Size(150, 40);
+			this.LblFlores.TabIndex = 50;
+			this.LblFlores.Text = "$0";
+			this.LblFlores.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblFlores.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
-			// customLabel20
+			// LblFrutos
 			// 
-			this.customLabel20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel20.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
-			this.customLabel20.BorderColor = System.Drawing.Color.PaleVioletRed;
-			this.customLabel20.BorderRadius = 40;
-			this.customLabel20.BorderSize = 0;
-			this.customLabel20.ForeColor = System.Drawing.Color.White;
-			this.customLabel20.Location = new System.Drawing.Point(715, 192);
-			this.customLabel20.MaximumSize = new System.Drawing.Size(150, 40);
-			this.customLabel20.MinimumSize = new System.Drawing.Size(150, 40);
-			this.customLabel20.Name = "customLabel20";
-			this.customLabel20.Size = new System.Drawing.Size(150, 40);
-			this.customLabel20.TabIndex = 49;
-			this.customLabel20.Text = "Frutos secos";
-			this.customLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-			this.customLabel20.TextColor = System.Drawing.Color.White;
+			this.LblFrutos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblFrutos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(2)))), ((int)(((byte)(34)))));
+			this.LblFrutos.BorderColor = System.Drawing.Color.PaleVioletRed;
+			this.LblFrutos.BorderRadius = 40;
+			this.LblFrutos.BorderSize = 0;
+			this.LblFrutos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
+			this.LblFrutos.Location = new System.Drawing.Point(685, 192);
+			this.LblFrutos.MaximumSize = new System.Drawing.Size(150, 40);
+			this.LblFrutos.MinimumSize = new System.Drawing.Size(150, 40);
+			this.LblFrutos.Name = "LblFrutos";
+			this.LblFrutos.Size = new System.Drawing.Size(150, 40);
+			this.LblFrutos.TabIndex = 49;
+			this.LblFrutos.Text = "$0";
+			this.LblFrutos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			this.LblFrutos.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
 			// Calculated
 			// 
@@ -485,16 +485,16 @@ namespace Proyecto_Transversal
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(21)))), ((int)(((byte)(21)))));
 			this.ClientSize = new System.Drawing.Size(978, 744);
-			this.Controls.Add(this.customLabel16);
-			this.Controls.Add(this.customLabel17);
-			this.Controls.Add(this.customLabel18);
-			this.Controls.Add(this.customLabel19);
-			this.Controls.Add(this.customLabel20);
-			this.Controls.Add(this.customLabel11);
-			this.Controls.Add(this.customLabel12);
-			this.Controls.Add(this.customLabel13);
-			this.Controls.Add(this.customLabel14);
-			this.Controls.Add(this.customLabel15);
+			this.Controls.Add(this.LblComida);
+			this.Controls.Add(this.LblObra);
+			this.Controls.Add(this.LblAgua);
+			this.Controls.Add(this.LblFlores);
+			this.Controls.Add(this.LblFrutos);
+			this.Controls.Add(this.LblPersonal);
+			this.Controls.Add(this.LblDiseno);
+			this.Controls.Add(this.LblPintura);
+			this.Controls.Add(this.LblAserrin);
+			this.Controls.Add(this.LblTamano);
 			this.Controls.Add(this.lblPrecio);
 			this.Controls.Add(this.lbltitle);
 			this.Controls.Add(this.customLabel6);
