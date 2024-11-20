@@ -81,6 +81,14 @@ namespace Proyecto_Transversal
             CalculatePrices();
             Calculated calculatedForm = new Calculated(cantidadAserrin, cantidadPintura, cantidadLitroAgua, cantidadKgFrutos, area, numeropersonal, costototdisen, costototmano, floresdecenas, comida);
             OpenWindow(calculatedForm);
+
+            calculatedForm.FormClosed += (s, args) => cleanvalues();
+        }
+
+        private void cleanvalues()
+        {
+            cantidadAserrin = 0; cantidadPintura = 0; cantidadLitroAgua = 0; cantidadKgFrutos = 0;
+            area = 0; numeropersonal = 0; costototdisen = 0; costototmano = 0; floresdecenas = 0; comida = 0;
         }
 
         // Actualiza los precios que pueden cambiar
