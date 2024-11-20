@@ -313,7 +313,7 @@ namespace Proyecto_Transversal
 			this.LblPersonal.Name = "LblPersonal";
 			this.LblPersonal.Size = new System.Drawing.Size(150, 60);
 			this.LblPersonal.TabIndex = 48;
-			this.LblPersonal.Text = "$0";
+			this.LblPersonal.Text = "0";
 			this.LblPersonal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.LblPersonal.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
