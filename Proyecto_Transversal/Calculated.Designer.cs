@@ -385,7 +385,7 @@ namespace Proyecto_Transversal
 			this.LblTamano.Name = "LblTamano";
 			this.LblTamano.Size = new System.Drawing.Size(150, 40);
 			this.LblTamano.TabIndex = 44;
-			this.LblTamano.Text = "$0";
+			this.LblTamano.Text = "0";
 			this.LblTamano.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			this.LblTamano.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(82)))), ((int)(((byte)(119)))));
 			// 
@@ -508,6 +508,7 @@ namespace Proyecto_Transversal
 			this.Controls.Add(this.customLabel2);
 			this.Controls.Add(this.customLabel1);
 			this.Controls.Add(this.BtnRegresar);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximumSize = new System.Drawing.Size(1000, 800);
 			this.MinimumSize = new System.Drawing.Size(1000, 800);
 			this.Name = "Calculated";
