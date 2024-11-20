@@ -31,7 +31,6 @@ namespace Proyecto_Transversal
         private int comida = 0;
         private int manoobra = 0;
         private int numeropersonal = 0;
-        private int costodiseno = 0;
         
         // Otros
         private int area = 0;
@@ -72,7 +71,8 @@ namespace Proyecto_Transversal
 
         void BtnVerPreciosClick(object sender, EventArgs e)
         {
-            //
+        	ListPrices prices = new ListPrices();
+        	OpenWindow(prices);
         }
 
         void BtnCalcularClick(object sender, EventArgs e)
