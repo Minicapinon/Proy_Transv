@@ -87,9 +87,15 @@ namespace Proyecto_Transversal
 		private void UpdateValues()
 		{
             int costocomida = 0;
+            string errcomida = "Comida", errdiseno = "Diseño", errmanodeobra = "Mano de obra";
+
 			if(int.TryParse(TxtBoxPersonal.Texts, out numeropersonal) && int.TryParse(TxtBoxComida.Texts, out costocomida))
             {
                 comida = numeropersonal * costocomida;
+            }
+            else
+            {
+                nonnumerical(errcomida);
             }
 			
 			int disehoras = 0;
@@ -97,6 +103,10 @@ namespace Proyecto_Transversal
 			{
 				costototdisen = manoobra * disehoras;
 			}
+            else
+            {
+                nonnumerical(errdiseno);
+            }
 
             int Obracosto = 0;
             int Obrahora = 0;
@@ -104,37 +114,74 @@ namespace Proyecto_Transversal
             {
                 costototmano = Obracosto * Obrahora;
             }
+            else
+            {
+                nonnumerical(errmanodeobra);
+            }
 		}
 
         // Calcula los precios
         private void CalculatePrices()
         {
         	int bulto = 0, pinturaCant=0, aguaCant=0, frutosCant=0,altura=0,anchura=0, flores = 0;
+            string errbulto = "Aserrín", errpinturaCant="Pintura",
+            erraguaCant="Agua", erraltura="Altura",
+            erranchura="Anchura";
 
         	if(int.TryParse(TxtBoxBulto.Texts, out bulto))
             {
                 cantidadAserrin = aserrin * bulto;
             }
+            else
+            {
+                nonnumerical(errbulto);
+            }
         	if(int.TryParse(TxtBoxPintura.Texts, out pinturaCant))
             {
                 cantidadPintura = pintura * pinturaCant;
+            }
+            else
+            {
+                nonnumerical(errpinturaCant);
             }
         	if(int.TryParse(TxtBoxAgua.Texts, out aguaCant))
             {
                 cantidadLitroAgua = litroagua * aguaCant;
             }
+            else
+            {
+                nonnumerical(erraguaCant);
+            }
         	if(int.TryParse(TxtBoxFrutos.Texts, out frutosCant))
             {
                 cantidadKgFrutos = kgfrutos * frutosCant;
             }
-        	if(int.TryParse(TxtBoxAltura.Texts, out altura) && int.TryParse(TxtBoxAnchura.Texts, out anchura))
+        	if(int.TryParse(TxtBoxAltura.Texts, out altura))
             {
-                area = altura * anchura;
+                if(int.TryParse(TxtBoxAnchura.Texts, out anchura))
+                {
+                    area = altura * anchura;
+                }
+                else
+                {
+                    nonnumerical(erranchura);
+                }
+            }
+            else
+            {
+                nonnumerical(erraltura);
             }
         	if(int.TryParse(TxtBoxDecenas.Texts, out flores))
             {
                 floresdecenas = flores * decflores;
             }
+        }
+
+        private void nonnumerical(string campo)
+        {
+            const string title = "Un valor no numerico";
+            string errorin = campo;
+			MessageBox.Show("El campo " + errorin + " contiene un valor que no es un numero,\nPor lo que será cero", title, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void OpenWindow(Form miniform)
