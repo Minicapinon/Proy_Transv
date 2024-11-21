@@ -5,7 +5,6 @@
  * Time: 03:16 p. m.
  */
 using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Proyecto_Transversal
@@ -61,10 +60,17 @@ namespace Proyecto_Transversal
 
         //Muestra el costo total
         private void UpdatePrice()
-        {
-            int suma = _aserrin + _pintura + _litroagua + _kgfrutos + _diseno + _mano + _flores + _comida;
-            lblPrecio.Text = suma.ToString();
-        }
+		{
+		    try
+		    {
+		        int suma = _aserrin + _pintura + _litroagua + _kgfrutos + _diseno + _mano + _flores + _comida;
+		        lblPrecio.Text = suma.ToString();
+		    }
+		    catch (Exception ex)
+		    {
+		        MessageBox.Show("Error al calcular el precio: " + ex.Message);
+		    }
+		}
 
         void BtnRegresarClick(object sender, EventArgs e)
         {

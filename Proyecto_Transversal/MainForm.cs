@@ -6,7 +6,6 @@
  */
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Proyecto_Transversal
@@ -33,12 +32,20 @@ namespace Proyecto_Transversal
 			this.Close();
 		}
 		
+		// Abre el formulario de forma precavida
 		private void OpenWindow(Form child)
 		{
-			if(child == null) return;
-			this.Hide();
-            child.Show();
-            child.FormClosed += (s, args) => this.Show();
+		    try
+		    {
+		        if (child == null) return;
+		        this.Hide();
+		        child.Show();
+		        child.FormClosed += (s, args) => this.Show();
+		    }
+		    catch (Exception ex)
+		    {
+		        MessageBox.Show("Ocurrio un error: " + ex.Message);
+		    }
 		}
 	}
 }

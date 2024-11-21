@@ -19,3 +19,14 @@ C:\Users\cc2-pc06\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proye
 C:\Users\cc2-pc06\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.exe
 C:\Users\cc2-pc06\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.pdb
 C:\Users\cc2-pc06\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.ListPrices.resources
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\bin\Debug\Proyecto_Transversal.exe.config
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\bin\Debug\Proyecto_Transversal.exe
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\bin\Debug\Proyecto_Transversal.pdb
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.Calculated.resources
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.Calc_precio.resources
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.ListPrices.resources
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.MainForm.resources
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.csproj.GenerateResource.Cache
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.exe
+C:\Users\CC1_PC45\Documents\OwO\Proy_Transv\Proyecto_Transversal\obj\Debug\Proyecto_Transversal.pdb

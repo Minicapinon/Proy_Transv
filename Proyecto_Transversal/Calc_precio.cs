@@ -5,7 +5,6 @@
  * Time: 03:16 p. m.
  */
 using System;
-using System.Drawing;
 using System.Windows.Forms;
 
 namespace Proyecto_Transversal
