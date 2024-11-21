@@ -89,7 +89,7 @@ namespace Proyecto_Transversal
 			this.BtnRegresar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BtnRegresar.BackgroundImage")));
 			this.BtnRegresar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.BtnRegresar.Location = new System.Drawing.Point(580, 40);
-			this.BtnRegresar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.BtnRegresar.Margin = new System.Windows.Forms.Padding(2);
 			this.BtnRegresar.MaximumSize = new System.Drawing.Size(73, 52);
 			this.BtnRegresar.MinimumSize = new System.Drawing.Size(73, 52);
 			this.BtnRegresar.Name = "BtnRegresar";
@@ -532,11 +532,11 @@ namespace Proyecto_Transversal
 			this.Controls.Add(this.customLabel1);
 			this.Controls.Add(this.BtnRegresar);
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(2);
 			this.MaximumSize = new System.Drawing.Size(700, 600);
 			this.MinimumSize = new System.Drawing.Size(700, 600);
 			this.Name = "Calculated";
-			this.Text = "Calculated";
+			this.Text = "Precios Calculados";
 			((System.ComponentModel.ISupportInitialize)(this.BtnRegresar)).EndInit();
 			this.ResumeLayout(false);
 

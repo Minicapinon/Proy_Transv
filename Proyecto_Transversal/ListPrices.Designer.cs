@@ -322,10 +322,11 @@ namespace Proyecto_Transversal
 			this.Controls.Add(this.customLabel2);
 			this.Controls.Add(this.BtnRegresar);
 			this.Controls.Add(this.lbltitle);
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MaximumSize = new System.Drawing.Size(700, 600);
 			this.MinimumSize = new System.Drawing.Size(700, 600);
 			this.Name = "ListPrices";
-			this.Text = "ListPrices";
+			this.Text = "Listar Precios";
 			((System.ComponentModel.ISupportInitialize)(this.BtnRegresar)).EndInit();
 			this.ResumeLayout(false);
 

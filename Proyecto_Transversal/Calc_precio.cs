@@ -47,6 +47,7 @@ namespace Proyecto_Transversal
             CleanTextBox();
         }
         
+        // Limpia las cajas de texto
         private void CleanTextBox()
         {
             TxtBoxAltura.Texts = "";
@@ -74,7 +75,8 @@ namespace Proyecto_Transversal
         	ListPrices prices = new ListPrices();
         	OpenWindow(prices);
         }
-
+	
+        // Se encarga de enviar los valores al formulario encargado de mostrar los valores
         void BtnCalcularClick(object sender, EventArgs e)
         {
 			UpdateValues();
@@ -84,7 +86,8 @@ namespace Proyecto_Transversal
 
             calculatedForm.FormClosed += (s, args) => cleanvalues();
         }
-
+		
+        // Esto se hace para que no se guarden cuando se abra otro formulario
         private void cleanvalues()
         {
             cantidadAserrin = 0; cantidadPintura = 0; cantidadLitroAgua = 0; cantidadKgFrutos = 0;
@@ -128,7 +131,7 @@ namespace Proyecto_Transversal
             }
 		}
 
-        // Calcula los precios
+        // Calcula los precios, y de ser el caso que sea un valor no numerico llama a una funcion que lo dice
         private void CalculatePrices()
         {
         	int bulto = 0, pinturaCant=0, aguaCant=0, frutosCant=0,altura=0,anchura=0, flores = 0;
@@ -184,14 +187,16 @@ namespace Proyecto_Transversal
                 floresdecenas = flores * decflores;
             }
         }
-
+	
+        // Si un valor en un textbox es diferente, lo dice
         private void nonnumerical(string campo)
         {
             const string title = "Un valor no numerico";
             string errorin = campo;
 			MessageBox.Show("El campo " + errorin + " contiene un valor que no es un numero,\nPor lo que será cero", title, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
-
+	
+        // Se encarga de administrar las ventanas que se abren
         private void OpenWindow(Form miniform)
         {
             this.Hide();

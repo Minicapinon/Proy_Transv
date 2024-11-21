@@ -25,6 +25,12 @@ namespace Proyecto_Transversal
 		}
 		void BtnInfoClick(object sender, EventArgs e)
 		{
+			Message4user();
+		}
+		
+		// Muestra la informacion al usuario
+		private void Message4user()
+		{
 			const string title = "Información de precios";
 			MessageBox.Show("Los demás precios no se listaron ya que pueden variar", title, MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}

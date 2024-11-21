@@ -59,6 +59,7 @@ namespace Proyecto_Transversal
             LblComida.Text = "$" + _comida.ToString();
         }
 
+        //Muestra el costo total
         private void UpdatePrice()
         {
             int suma = _aserrin + _pintura + _litroagua + _kgfrutos + _diseno + _mano + _flores + _comida;
@@ -67,38 +68,7 @@ namespace Proyecto_Transversal
 
         void BtnRegresarClick(object sender, EventArgs e)
         {
-        	valuestozero();
-            labelsclean();
             this.Close();
-        }
-
-        private void labelsclean()
-        {
-            LblTamano.Text = "";
-            LblAserrin.Text = "";
-            LblPintura.Text = "";
-            LblAgua.Text = "";
-            LblFrutos.Text = "";
-			LblPersonal.Text = "";
-			LblDiseno.Text = "";
-            LblObra.Text = "";
-            LblFlores.Text = "";
-            LblComida.Text = "";
-        }
-        
-        private void valuestozero()
-        {
-			_aserrin = 0;
-            _pintura = 0;
-            _litroagua = 0;
-            _kgfrutos = 0;
-			_area = 0;
-			_numerodepersonal = 0;
-			_diseno = 0;
-            _mano = 0;
-            _flores = 0;
-            _comida = 0;
-
         }
     }
 }
